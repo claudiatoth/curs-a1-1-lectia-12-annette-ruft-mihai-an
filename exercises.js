@@ -268,16 +268,16 @@ function checkEx4() {
 // (inspirat din fișa 82)
 // ============================================
 const ex5Data = [
-    { id: 'a', sentence: 'Mihai geht (zu + dem) ____ Arzt. (der Arzt)', translation: 'Mihai merge la medic.', correct: 'zum', accept: ['zum'] },
-    { id: 'b', sentence: 'Andreea geht (zu + der) ____ Schule. (die Schule)', translation: 'Andreea merge la școală.', correct: 'zur', accept: ['zur'] },
-    { id: 'c', sentence: 'Wir sind (in + dem) ____ Park. (der Park)', translation: 'Suntem în parc.', correct: 'im', accept: ['im'] },
-    { id: 'd', sentence: 'Gehen wir (in + das) ____ Theater? (das Theater)', translation: 'Mergem la teatru?', correct: 'ins', accept: ['ins'] },
-    { id: 'e', sentence: 'Carolina wartet (an + dem) ____ Bahnhof. (der Bahnhof)', translation: 'Carolina așteaptă la gară.', correct: 'am', accept: ['am'] },
-    { id: 'f', sentence: 'Mihai war (bei + dem) ____ Arzt. (der Arzt)', translation: 'Mihai a fost la medic.', correct: 'beim', accept: ['beim'] },
-    { id: 'g', sentence: 'Der Bus kommt (von + dem) ____ Flughafen. (der Flughafen)', translation: 'Autobuzul vine de la aeroport.', correct: 'vom', accept: ['vom'] },
-    { id: 'h', sentence: 'Acar geht (an + das) ____ Fenster. (das Fenster)', translation: 'Acar merge la fereastră.', correct: 'ans', accept: ['ans'] },
-    { id: 'i', sentence: 'Andreea geht (zu + der) ____ Apotheke. (die Apotheke)', translation: 'Andreea merge la farmacie.', correct: 'zur', accept: ['zur'] },
-    { id: 'j', sentence: 'Florian geht (in + das) ____ Kino. (das Kino)', translation: 'Florian merge la cinema.', correct: 'ins', accept: ['ins'] }
+    { id: 'a', sentence: 'Mihai geht ____ Arzt. (der Arzt · merge la = zu)', translation: 'Mihai merge la medic.', correct: 'zum', accept: ['zum'] },
+    { id: 'b', sentence: 'Andreea geht ____ Schule. (die Schule · merge la = zu)', translation: 'Andreea merge la școală.', correct: 'zur', accept: ['zur'] },
+    { id: 'c', sentence: 'Wir sind ____ Park. (der Park · în staționare = in + Dat)', translation: 'Suntem în parc.', correct: 'im', accept: ['im'] },
+    { id: 'd', sentence: 'Gehen wir ____ Theater? (das Theater · în mișcare = in + Akk)', translation: 'Mergem la teatru?', correct: 'ins', accept: ['ins'] },
+    { id: 'e', sentence: 'Carolina wartet ____ Bahnhof. (der Bahnhof · la = an + Dat)', translation: 'Carolina așteaptă la gară.', correct: 'am', accept: ['am'] },
+    { id: 'f', sentence: 'Mihai war ____ Arzt. (der Arzt · la cineva = bei + Dat)', translation: 'Mihai a fost la medic.', correct: 'beim', accept: ['beim'] },
+    { id: 'g', sentence: 'Der Bus kommt ____ Flughafen. (der Flughafen · de la = von + Dat)', translation: 'Autobuzul vine de la aeroport.', correct: 'vom', accept: ['vom'] },
+    { id: 'h', sentence: 'Acar geht ____ Fenster. (das Fenster · spre = an + Akk)', translation: 'Acar merge la fereastră.', correct: 'ans', accept: ['ans'] },
+    { id: 'i', sentence: 'Andreea geht ____ Apotheke. (die Apotheke · merge la = zu)', translation: 'Andreea merge la farmacie.', correct: 'zur', accept: ['zur'] },
+    { id: 'j', sentence: 'Florian geht ____ Kino. (das Kino · spre = in + Akk)', translation: 'Florian merge la cinema.', correct: 'ins', accept: ['ins'] }
 ];
 
 function buildEx5() {

@@ -35,10 +35,10 @@ const finalTestData = [
     { type: 'multiple', category: '📞 Utilizare', question: 'Care propoziție e CORECTĂ?', options: ['Ich rufe du an.', 'Ich rufe dich an.', 'Ich rufe dir an.', 'Ich rufe dein an.'], correct: 'Ich rufe dich an.', explanation: 'anrufen + Akkusativ → dich. Ich rufe dich an = Te sun.' },
 
     // 4× Verschmelzung
-    { type: 'luckentext', category: '🔗 Verschmelzung', question: 'Completează forma contrasă:', sentence: 'Mihai geht (zu + dem) ____ Arzt.', translation: 'Mihai merge la medic.', accept: ['zum'], correct: 'zum', explanation: 'zu + dem = zum (masculin/neutru). zum Arzt.' },
-    { type: 'luckentext', category: '🔗 Verschmelzung', question: 'Completează forma contrasă:', sentence: 'Gehen wir (in + das) ____ Theater?', translation: 'Mergem la teatru?', accept: ['ins'], correct: 'ins', explanation: 'in + das = ins. ins Theater / ins Kino.' },
+    { type: 'luckentext', category: '🔗 Verschmelzung', question: 'Completează forma contrasă:', sentence: 'Mihai geht ____ Arzt. (der Arzt · zu + ?)', translation: 'Mihai merge la medic.', accept: ['zum'], correct: 'zum', explanation: 'zu + dem = zum (masculin/neutru). zum Arzt.' },
+    { type: 'luckentext', category: '🔗 Verschmelzung', question: 'Completează forma contrasă:', sentence: 'Gehen wir ____ Theater? (das Theater · in + ?)', translation: 'Mergem la teatru?', accept: ['ins'], correct: 'ins', explanation: 'in + das = ins. ins Theater / ins Kino.' },
     { type: 'multiple', category: '🔗 Verschmelzung', question: 'an + dem = ?', options: ['ans', 'am', 'im', 'an dem'], correct: 'am', explanation: 'an + dem = am (am Bahnhof). an + das = ans.' },
-    { type: 'luckentext', category: '🔗 Verschmelzung', question: 'Completează forma contrasă:', sentence: 'Andreea geht (zu + der) ____ Schule.', translation: 'Andreea merge la școală.', accept: ['zur'], correct: 'zur', explanation: 'zu + der = zur (feminin: die Schule). zur Schule.' },
+    { type: 'luckentext', category: '🔗 Verschmelzung', question: 'Completează forma contrasă:', sentence: 'Andreea geht ____ Schule. (die Schule · zu + ?)', translation: 'Andreea merge la școală.', accept: ['zur'], correct: 'zur', explanation: 'zu + der = zur (feminin: die Schule). zur Schule.' },
 
     // 3× Capcane
     { type: 'multiple', category: '⚠️ Capcane', question: 'zum sau zur? Andreea geht ____ Apotheke (die Apotheke).', options: ['zum', 'zur', 'zu dem', 'zu die'], correct: 'zur', explanation: 'die Apotheke = feminin → zu + der = zur. Pentru der/das Arzt ar fi zum.' },
